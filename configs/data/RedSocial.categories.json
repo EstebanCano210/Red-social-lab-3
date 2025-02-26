@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "67be76ec30b5d52b8b24c02d"
+  },
+  "name": "Ciencia",
+  "description": "Categoría relacionada con la ciencia.",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-26T02:05:32.162Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T02:05:32.162Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be771130b5d52b8b24c030"
+  },
+  "name": "Tecnología",
+  "description": "Categoría relacionada con tecnología y desarrollo",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-26T02:06:09.726Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T02:06:09.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be79236040ebc925c978e7"
+  },
+  "name": "Deporte",
+  "description": "Fushiboll.",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-26T02:14:59.058Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T02:16:36.452Z"
+  }
+}]

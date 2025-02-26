@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "67be65c9bd33f5de4bfdf5fe"
+  },
+  "username": "admin",
+  "email": "ecano@gmail.com",
+  "password": "$2a$10$0H2FSzjv6Ca0YTPbe5mQE.Sz4HUa69mZmTdV44KrBmVy68efL3VcC",
+  "role": "ADMIN_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-26T00:52:25.755Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T00:52:25.755Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be730d2941a029fba6d631"
+  },
+  "username": "Luis21",
+  "email": "l21@gmail.com",
+  "password": "$2a$10$Gbh/LeHeH3WVEXoGauBr8O9D626s6ETqlDUVbY8t04aa2sGaFiroC",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-26T01:49:01.307Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T01:49:01.307Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be78916040ebc925c978d9"
+  },
+  "username": "Anna",
+  "email": "ann@gmail.com",
+  "password": "$2a$10$edJ2dljnZO6RlE/Q76VTK.tpEf6A7GKmmCqZk5k4z78C.9pywNtua",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-26T02:12:33.575Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T04:14:18.172Z"
+  }
+}]

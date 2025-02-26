@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "67be9812e683559c951f2b64"
+  },
+  "content": "¡Excelente publicación! Me ha gustado mucho.",
+  "publication": {
+    "$oid": "67be81f0401c770ff356c08a"
+  },
+  "author": {
+    "$oid": "67be78916040ebc925c978d9"
+  },
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-26T04:26:58.722Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T04:26:58.722Z"
+  }
+}]

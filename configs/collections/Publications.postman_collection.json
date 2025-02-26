@@ -1,0 +1,185 @@
+{
+	"info": {
+		"_postman_id": "7df0f16c-98d9-45cd-87e5-0147001046ad",
+		"name": "Publications",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42121262"
+	},
+	"item": [
+		{
+			"name": "Ver Publicaciones",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JlNzMwZDI5NDFhMDI5ZmJhNmQ2MzEiLCJpYXQiOjE3NDA1MzgwNTUsImV4cCI6MTc0MDU0MTY1NX0.TlOyW45vcZJuRrIcT9imNz44zPjFitefsRdAZ5PPRSs",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/redSocial/v1/publications/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"redSocial",
+						"v1",
+						"publications",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar Publicacion",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JlNjVjOWJkMzNmNWRlNGJmZGY1ZmUiLCJpYXQiOjE3NDA1NDQyMDcsImV4cCI6MTc0MDU0NzgwN30.HJFbB5ega9uwFV0V9qCj6j7mZB8i3eQ4383IMbsjj98",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Publicacion para el delete\",\r\n  \"category\": \"67be771130b5d52b8b24c030\",\r\n  \"content\": \"publicacion de ejemplo\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/redSocial/v1/publications/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"redSocial",
+						"v1",
+						"publications",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar Publicacion",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-token",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Telefonos\",\r\n  \"category\": \"67be771130b5d52b8b24c030\",\r\n  \"content\": \"Telefonos nuevos de xiaomi y Samsung\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/redSocial/v1/publications/67be81f0401c770ff356c08a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"redSocial",
+						"v1",
+						"publications",
+						"67be81f0401c770ff356c08a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Publicacion",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-token",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Título \",\r\n  \"category\": \"67be76ec30b5d52b8b24c02d\",\r\n  \"content\": \"He actualizado mi publicación con nueva información.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/redSocial/v1/publications/67be8159401c770ff356c077",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"redSocial",
+						"v1",
+						"publications",
+						"67be8159401c770ff356c077"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

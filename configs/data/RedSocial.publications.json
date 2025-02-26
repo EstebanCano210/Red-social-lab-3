@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "67be81f0401c770ff356c08a"
+  },
+  "title": "Nuevos Telefonos",
+  "category": {
+    "$oid": "67be771130b5d52b8b24c030"
+  },
+  "content": "Samsung saca nuevos telefonos",
+  "author": {
+    "$oid": "67be730d2941a029fba6d631"
+  },
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-26T02:52:32.321Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T02:52:32.321Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be98fabeb57e0df20ea482"
+  },
+  "title": "Publicacion para el delete",
+  "category": {
+    "$oid": "67be771130b5d52b8b24c030"
+  },
+  "content": "publicacion de ejemplo",
+  "author": {
+    "$oid": "67be65c9bd33f5de4bfdf5fe"
+  },
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-26T04:30:50.767Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T04:30:50.767Z"
+  }
+}]
