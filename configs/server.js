@@ -6,6 +6,11 @@ import helmet from 'helmet';
 import morgan from 'morgan';
 import { dbConnection } from './mongo.js';
 import limiter from '../src/middlewares/validar-cant-peticiones.js';
+import authRoutes from '../src/Auth/auth.routes.js';
+import categoryRoutes from '../src/Categories/category.routes.js';
+import publicationRoutes from '../src/Publication/publication.routes.js';
+import commentRoutes from '../src/Comment/comment.routes.js'
+import userRoutes from '../src/Users/user.routes.js';
 
 const middlewares = (app) => {
     app.use(express.urlencoded({ extended: false }));
@@ -17,7 +22,11 @@ const middlewares = (app) => {
 }
 
 const routes = (app) =>{
-
+    app.use('/redSocial/v1/auth', authRoutes);
+    app.use('/redSocial/v1/categories', categoryRoutes);
+    app.use('/redSocial/v1/publications', publicationRoutes);
+    app.use('/redSocial/v1/comments', commentRoutes);
+    app.use('/redSocial/v1/user', userRoutes);
 }
 
 const conectarDB = async () => {
